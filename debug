@@ -1,0 +1,54 @@
+time=2026-01-16T16:17:44.403+03:00 level=INFO msg="checking for pulumi" path=/home/kubilay/.config/sst/bin/pulumi
+time=2026-01-16T16:17:44.634+03:00 level=INFO msg="checking for bun" path=/home/kubilay/.config/sst/bin/bun
+time=2026-01-16T16:17:44.636+03:00 level=INFO msg="initializing project" version=3.17.25
+time=2026-01-16T16:17:44.636+03:00 level=INFO msg="esbuild building" out=/home/kubilay/ceyhunlarplastik/sst-monorepo-nextjs16/.sst/platform/sst.config.1768569464636.mjs
+time=2026-01-16T16:17:44.640+03:00 level=INFO msg="esbuild built" outfile=/home/kubilay/ceyhunlarplastik/sst-monorepo-nextjs16/.sst/platform/sst.config.1768569464636.mjs
+time=2026-01-16T16:17:44.640+03:00 level=INFO msg="evaluating config"
+time=2026-01-16T16:17:44.666+03:00 level=INFO msg="config evaluated"
+time=2026-01-16T16:17:44.666+03:00 level=INFO msg="checking platform"
+time=2026-01-16T16:17:44.666+03:00 level=INFO msg="loading home"
+time=2026-01-16T16:17:44.667+03:00 level=INFO msg="aws credentials found" region=eu-central-1 profile=""
+time=2026-01-16T16:17:44.667+03:00 level=INFO msg="fetching bootstrap"
+time=2026-01-16T16:17:45.065+03:00 level=INFO msg="found existing bootstrap" data="{\"version\":5,\"asset\":\"sst-asset-vdmczboovcab\",\"assetEcrRegistryId\":\"657914290529\",\"assetEcrUrl\":\"657914290529.dkr.ecr.eu-central-1.amazonaws.com/sst-asset\",\"state\":\"sst-state-vdmczboovcab\",\"appsyncHttp\":\"\",\"appsyncRealtime\":\"\"}"
+time=2026-01-16T16:17:45.065+03:00 level=INFO msg="loaded config" app=sst-next16 stage=kubilay
+time=2026-01-16T16:17:45.065+03:00 level=INFO msg="initializing ui" isTTY=true
+time=2026-01-16T16:17:45.065+03:00 level=INFO msg="server port assigned" port=13557
+time=2026-01-16T16:17:45.066+03:00 level=INFO msg="running stack command" service=project.run cmd=deploy
+time=2026-01-16T16:17:45.066+03:00 level=INFO msg="INFO locking app=sst-next16 stage=kubilay"
+time=2026-01-16T16:17:45.066+03:00 level=INFO msg="INFO getting data key=lock app=sst-next16 stage=kubilay"
+time=2026-01-16T16:17:45.066+03:00 level=INFO msg=starting service=server
+time=2026-01-16T16:17:45.066+03:00 level=INFO msg=server service=server addr=0.0.0.0:13557
+time=2026-01-16T16:17:45.642+03:00 level=INFO msg="INFO putting update app=sst-next16 stage=kubilay"
+time=2026-01-16T16:17:45.860+03:00 level=INFO msg="INFO getting passphrase app=sst-next16 stage=kubilay"
+time=2026-01-16T16:17:46.150+03:00 level=INFO msg="INFO pulling state app=sst-next16 stage=kubilay out=/home/kubilay/ceyhunlarplastik/sst-monorepo-nextjs16/.sst/pulumi/fe64390b971581b6f7e5772d/.pulumi/stacks/sst-next16/kubilay.json"
+time=2026-01-16T16:17:46.935+03:00 level=INFO msg="got previous deployment" service=project.run updateID=fe64390b971581b6f7e5772d
+time=2026-01-16T16:17:46.935+03:00 level=INFO msg="esbuild building" out=/home/kubilay/ceyhunlarplastik/sst-monorepo-nextjs16/.sst/platform/sst.config.1768569466150.mjs
+time=2026-01-16T16:17:46.974+03:00 level=INFO msg="esbuild built" outfile=/home/kubilay/ceyhunlarplastik/sst-monorepo-nextjs16/.sst/platform/sst.config.1768569466150.mjs
+time=2026-01-16T16:17:46.980+03:00 level=INFO msg="built sst.config.ts" service=project.run updateID=fe64390b971581b6f7e5772d to=/home/kubilay/ceyhunlarplastik/sst-monorepo-nextjs16/.sst/platform/sst.config.1768569466150.mjs
+time=2026-01-16T16:17:46.983+03:00 level=INFO msg="tracked files" service=project.run updateID=fe64390b971581b6f7e5772d
+time=2026-01-16T16:17:46.983+03:00 level=INFO msg="INFO getting data key=secret app=sst-next16 stage=_fallback"
+time=2026-01-16T16:17:46.983+03:00 level=INFO msg="INFO getting data key=secret app=sst-next16 stage=kubilay"
+time=2026-01-16T16:17:47.212+03:00 level=INFO msg="starting pulumi" service=project.run updateID=fe64390b971581b6f7e5772d args="[/home/kubilay/.config/sst/bin/pulumi up --yes -f --stack organization/sst-next16/kubilay --non-interactive --event-log /home/kubilay/ceyhunlarplastik/sst-monorepo-nextjs16/.sst/pulumi/fe64390b971581b6f7e5772d/eventlog.json --config aws:defaultTags={\"tags\":{\"sst:app\":\"sst-next16\",\"sst:stage\":\"kubilay\"}} --config aws:region=eu-central-1]"
+time=2026-01-16T16:17:52.044+03:00 level=INFO msg="INFO pushing partial state updateID=fe64390b971581b6f7e5772d"
+time=2026-01-16T16:18:30.351+03:00 level=INFO msg="telemetry tracking error" service=project.run updateID=fe64390b971581b6f7e5772d
+time=2026-01-16T16:18:30.352+03:00 level=INFO msg="telemetry tracking error" service=project.run updateID=fe64390b971581b6f7e5772d
+time=2026-01-16T16:18:50.580+03:00 level=INFO msg="telemetry tracking error" service=project.run updateID=fe64390b971581b6f7e5772d
+time=2026-01-16T16:18:50.721+03:00 level=INFO msg="rpc request" method=POST url=/rpc
+time=2026-01-16T16:18:51.064+03:00 level=INFO msg="pulumi exited" service=project.run updateID=fe64390b971581b6f7e5772d err=<nil>
+time=2026-01-16T16:18:51.064+03:00 level=INFO msg="eof and exited" service=project.run updateID=fe64390b971581b6f7e5772d eofs=0
+time=2026-01-16T16:18:51.064+03:00 level=INFO msg="telemetry tracking error" service=project.run updateID=fe64390b971581b6f7e5772d
+time=2026-01-16T16:18:51.064+03:00 level=INFO msg="eof and exited" service=project.run updateID=fe64390b971581b6f7e5772d eofs=1
+time=2026-01-16T16:18:51.064+03:00 level=INFO msg="breaking out of tail loop" service=project.run updateID=fe64390b971581b6f7e5772d
+time=2026-01-16T16:18:51.064+03:00 level=INFO msg="parsing state" service=project.run updateID=fe64390b971581b6f7e5772d
+time=2026-01-16T16:18:51.064+03:00 level=INFO msg="INFO pushing partial state updateID=fe64390b971581b6f7e5772d"
+time=2026-01-16T16:18:51.430+03:00 level=INFO msg="generating types" root=/home/kubilay/ceyhunlarplastik/sst-monorepo-nextjs16
+time=2026-01-16T16:18:51.432+03:00 level=INFO msg="canceling partial" service=project.run updateID=fe64390b971581b6f7e5772d
+time=2026-01-16T16:18:51.432+03:00 level=INFO msg="waiting for partial to exit" service=project.run updateID=fe64390b971581b6f7e5772d
+time=2026-01-16T16:18:51.496+03:00 level=INFO msg="INFO pushing eventlog updateID=fe64390b971581b6f7e5772d"
+time=2026-01-16T16:18:51.496+03:00 level=INFO msg="INFO pushing snapshot updateID=fe64390b971581b6f7e5772d"
+time=2026-01-16T16:18:52.022+03:00 level=INFO msg="INFO putting update app=sst-next16 stage=kubilay"
+time=2026-01-16T16:18:52.248+03:00 level=INFO msg="done running stack command" service=project.run updateID=fe64390b971581b6f7e5772d resources=23
+time=2026-01-16T16:18:52.250+03:00 level=INFO msg="INFO unlocking app=sst-next16 stage=kubilay"
+time=2026-01-16T16:18:52.452+03:00 level=INFO msg="shutting down server" service=server
+time=2026-01-16T16:18:52.452+03:00 level=INFO msg="server done" service=server
+time=2026-01-16T16:18:52.452+03:00 level=ERROR msg="exited with error" err="stack run had errors"
